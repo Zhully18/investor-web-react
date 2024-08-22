@@ -1,0 +1,43 @@
+.blog{
+    padding: 40px;
+    display: grid;
+    place-items: center;
+}
+.blog h2, .blog p{
+    text-align: center;
+}
+.blog_content{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+.blog_list{
+    width: 320px;
+    height: 530px;
+    padding: 10px;
+}
+.blog_list img{
+    width: 320px;
+    height: 380px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.blog_list h3, .blog_list p{
+    text-align: start;
+    margin-top: 10px;
+}
+.blog_list h3{
+    font-size: 24px;
+}
+.blog_list p{
+    color: #666;
+}
+.blog_list button{
+    border: none;
+    border-bottom: 2px solid green;
+    background: #fff;
+    font-size: 18px;
+    margin-top: 15px;
+}

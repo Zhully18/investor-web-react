@@ -2,6 +2,9 @@ import { IoCheckmarkCircle } from 'react-icons/io5'
 import { FaCentos } from "react-icons/fa";
 import { PiWebhooksLogo } from "react-icons/pi";
 import { SiWebmoney } from "react-icons/si";
+import coin from '../assets/coin.jpg'
+import write from '../assets/write.jpg'
+import write2 from '../assets/write2.jpg'
 
 
 export const about_list = [
@@ -61,5 +64,23 @@ export const resource = [
   {
     title : 'Educational Webinars',
     desc : 'A short description of the service your company provides and how it helps your clients business increase revenue'
+  }
+]
+
+export const blog = [
+  {
+    image: coin,
+    title: "5 Investment Strategies for 2024",
+    text: "Explore the top strategies that can help you stay ahead in the coming year"
+  },
+  {
+    image: write,
+    title: "Understanding the Power of Compound Interest",
+    text: "Learn how compounding can significantly impact your long-term wealth"
+  },
+  {
+    image: write2,
+    title: "The Benefits of Diversification in Your Portfolio",
+    text: "Discover why a diversified portfolio is essential for managing risk"
   }
 ]

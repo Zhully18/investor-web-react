@@ -1,5 +1,5 @@
 import React from 'react'
-import coin from '../../assets/coin.jpg'
+import coin from '../../assets/piless.png'
 import { resource } from '../data'
 import './Resources.css'
 
